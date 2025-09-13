@@ -1,0 +1,2 @@
+docker buildx build --builder cloud-vanhansewijck-default --platform linux/arm64,linux/amd64 -t vanhansewijck/ava-frontend:latest --push ./frontend
+docker buildx build --builder cloud-vanhansewijck-default --platform linux/arm64,linux/amd64 -t vanhansewijck/ava-backend:latest --push ./backend
